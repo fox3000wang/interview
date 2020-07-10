@@ -1,2 +1,7 @@
-# interview
-面试相关整理
+# 高频面试题整理
+
+# 相关链接
+
+## 刷算法全靠套路
+
+https://github.com/labuladong/fucking-algorithm
