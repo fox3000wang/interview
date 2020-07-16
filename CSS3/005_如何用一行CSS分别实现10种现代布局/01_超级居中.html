@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="">
+  <style>
+    .parent {
+      display: grid;
+      place-items: center;
+
+      background: lightblue;
+      width: 500px;
+      height: 500px;
+
+      resize: both;
+      overflow: auto;
+    }
+
+    .child {
+      padding: 0.5rem;
+      border-radius: 10px;
+      border: 1px solid red;
+      background: lightpink;
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    body {
+      font-family: system-ui, serif;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="parent blue">
+    <div class="box coral" contenteditable>
+      :)
+    </div>
+  </div>
+</body>
+
+</html>
